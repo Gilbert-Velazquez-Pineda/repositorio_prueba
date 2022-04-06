@@ -1,0 +1,135 @@
+
+html{
+    font-size: 62.5%;
+}
+
+#productos{
+    background-color: #ccc;
+    height: 50rem;
+    position: relative;
+}
+
+section div{
+    background-color: red;
+}
+
+div {
+    color: blue;
+}
+
+.colorRojo {
+    color: red;
+}
+
+.fuentegrande {
+    font-size: 8rem /*cuando 1rem es igual a 10 pixeles con el reset del 62.5*/;
+}
+
+.fuentemediana {
+    font-size: 4rem;
+}
+
+.colorazul {
+    color: blue;
+}
+
+p{
+    color: aqua;
+}
+
+ul{
+    position: sticky;
+    top: 0;
+    list-style-type: square;
+    text-align: center;
+    background-color: black;
+    
+
+}
+
+.cursiva{
+
+    font-size: italic;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    font-size: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+#imagen-fondo{
+    background-image: url("../img/descarga.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.card1{
+
+    background-color: black;
+    width: 30%;
+    height: 20rem;
+    margin-bottom: 60px;
+    margin-left:  20px;
+    padding: 100px 50px;
+    position: relative;
+
+}
+
+.fondoVerde {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: -4rem;
+    padding: 1rem 2rem;
+}
+
+.card1 img{
+    display: block;
+    width: 20rem;
+    margin: 0 auto;
+    border: dotted 2px red;
+    
+}
+
+.card2{
+
+    background-color: green;
+}
+
+.text--center{
+    text-align: center;
+}
+
+#centrar{
+    display:  inline-block;
+    margin: 0 300px;
+
+}
+
+button{
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+
+#enlaceWA {
+    color: yellow;
+    font-size: 6rem;
+    position: fixed;
+    bottom: 0;
+    right: 4rem;
+    background-color: red;
+}
